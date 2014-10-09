@@ -6,8 +6,8 @@ fluidPage(
   tabsetPanel(id = "partial" , #, type = "pill",
               tabPanel("Load", value="load"),
               tabPanel("Manipulate", value="manipulate"),
-              tabPanel("Plot", value="plot"),
-              tabPanel("Handsontable", value="htable")
+              tabPanel("Plot", value="plot")
+             , tabPanel("Handsontable", value="htable")
   ),
   uiOutput("container")
 )
